@@ -1,0 +1,51 @@
+# Fichiers de sauvegarde / temporaires
+*.bak
+*.tmp
+*.temp
+*.000
+*.001
+*.002
+*.old
+*.orig
+*.save
+
+# Fichiers auto générés
+*.kicad_prl
+*.kicad_pro-bak
+*.kicad_sch-bak
+
+# Cache / autosave
+_autosave-*
+*.autosave
+
+# Netlist (re-générable)
+*.net
+
+# Fichiers de simulation (ngspice)
+*.raw
+*.out
+
+# Gerbers / outputs fabrication
+*.gbr
+*.gerber
+*.drl
+*.zip
+
+# Exports
+*.step
+*.stp
+*.wrl
+
+# BOM générées
+*.csv
+
+# Fichiers spécifiques OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Dossier build si tu en utilises
+build/
+dist/
