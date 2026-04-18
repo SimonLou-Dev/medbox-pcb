@@ -1428,6 +1428,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 107.95) (xy 231.14 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08703e63-e3cb-4e32-93cf-1b26421109fd")
+	)
+	(wire
+		(pts
 			(xy 129.54 77.47) (xy 160.02 77.47)
 		)
 		(stroke
@@ -1465,16 +1475,6 @@
 			(type default)
 		)
 		(uuid "4bdb39ab-95ac-4aeb-8019-c10940545303")
-	)
-	(wire
-		(pts
-			(xy 153.67 69.85) (xy 160.02 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ea975aa-8607-4720-b897-8581f5aa870f")
 	)
 	(wire
 		(pts
@@ -1568,13 +1568,13 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 62.23) (xy 229.87 62.23)
+			(xy 226.06 110.49) (xy 231.14 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d77858cd-ea7a-4e7f-81fe-50555e25fcf3")
+		(uuid "c8d9ce56-e2cb-4619-9c12-f528ce63d627")
 	)
 	(wire
 		(pts
@@ -1605,16 +1605,6 @@
 			(type default)
 		)
 		(uuid "f14a214f-356c-43f7-b354-555aff24a69e")
-	)
-	(wire
-		(pts
-			(xy 153.67 67.31) (xy 160.02 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fda9b3c3-466e-41b8-900a-274dc8323ac3")
 	)
 	(global_label "ANY_FAIL"
 		(shape input)
@@ -1794,22 +1784,22 @@
 	)
 	(global_label "MOT_MS3"
 		(shape input)
-		(at 153.67 67.31 180)
+		(at 231.14 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "65423060-d49e-49b3-922f-0f61f53792bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.0973 67.31 0)
+			(at 242.7127 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -1838,22 +1828,22 @@
 	)
 	(global_label "LED_MEDIC"
 		(shape input)
-		(at 153.67 69.85 180)
+		(at 231.14 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "974ab0b0-834c-4119-a4e3-349dd1c0c062")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.5249 69.85 0)
+			(at 244.2851 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -1986,28 +1976,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GAT_LED_POWER"
-		(shape input)
-		(at 229.87 62.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fb69b06c-ead1-402a-b35f-b7b4101980ef")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.0346 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
