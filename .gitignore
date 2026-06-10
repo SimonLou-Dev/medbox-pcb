@@ -49,3 +49,4 @@ Thumbs.db
 # Dossier build si tu en utilises
 build/
 dist/
+out/

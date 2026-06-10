@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "MP1584EN"
-		(at 0 -20 0)
+		(at 0 -16 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "c5dae156-07ab-4d2c-a38f-52a4de4f048b")
@@ -96,18 +96,18 @@
 		(uuid "c72e0ff3-0f0b-4033-b72c-443a02c5be54")
 	)
 	(fp_rect
-		(start -15 -19)
-		(end 15 21)
+		(start -10 -15)
+		(end 10 15)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "c64081e7-a462-40c8-9e48-af40521f236c")
 	)
 	(fp_text user "IN"
-		(at -1 18 0)
+		(at -1 14 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "a492126d-256d-4f44-a743-3d3cba611f47")
@@ -120,7 +120,7 @@
 		)
 	)
 	(fp_text user "OUT"
-		(at -1.591516 -16.322741 0)
+		(at -1 -13 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "f8d85337-8dcf-426a-a879-99f882547548")
@@ -133,7 +133,7 @@
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 23 0)
+		(at 0 17 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "9ab16988-982d-4c7b-80a7-07d29e50cf6c")
@@ -145,7 +145,7 @@
 		)
 	)
 	(pad "1" thru_hole circle
-		(at 13 19)
+		(at 8 13)
 		(size 2.54 2.54)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
@@ -153,7 +153,7 @@
 		(uuid "824b4504-aef1-47e7-bc0b-3921a0654b00")
 	)
 	(pad "2" thru_hole roundrect
-		(at -13 19)
+		(at -8 13)
 		(size 2.54 1.27)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
@@ -162,7 +162,7 @@
 		(uuid "3dd944de-0406-4e75-b49b-1253b0e8c2db")
 	)
 	(pad "3" thru_hole circle
-		(at 13 -17)
+		(at 8 -13)
 		(size 2.54 2.54)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
@@ -170,7 +170,7 @@
 		(uuid "e5481b4b-91c6-4fa4-a73b-5e06b3fae976")
 	)
 	(pad "4" thru_hole circle
-		(at -13 -16.365)
+		(at -8 -13)
 		(size 2.54 2.54)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")

@@ -1280,16 +1280,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 85.09) (xy 85.09 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0813c0dd-e105-42a2-a097-127ad4294a82")
-	)
-	(wire
-		(pts
 			(xy 195.58 92.71) (xy 198.12 92.71)
 		)
 		(stroke
@@ -1330,26 +1320,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 85.09) (xy 95.25 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56708589-f3fc-400c-b024-26022284a2eb")
-	)
-	(wire
-		(pts
-			(xy 102.87 96.52) (xy 105.41 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56fdea54-5b37-4f85-924e-55895ed71d40")
-	)
-	(wire
-		(pts
 			(xy 93.98 107.95) (xy 95.25 107.95)
 		)
 		(stroke
@@ -1380,26 +1350,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 96.52) (xy 86.36 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a6cfe38-6537-4c9a-aa8d-9878eef3f083")
-	)
-	(wire
-		(pts
-			(xy 93.98 96.52) (xy 95.25 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "844e35f9-0433-45e8-971b-a150fc6b01d6")
-	)
-	(wire
-		(pts
 			(xy 198.12 80.01) (xy 203.2 80.01)
 		)
 		(stroke
@@ -1427,16 +1377,6 @@
 			(type default)
 		)
 		(uuid "a612fd3b-a9dd-4b0e-94fc-cd734ab6d1cc")
-	)
-	(wire
-		(pts
-			(xy 102.87 85.09) (xy 105.41 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a677fe6b-045c-4532-9688-afe507eb1709")
 	)
 	(wire
 		(pts
@@ -1530,28 +1470,6 @@
 			)
 		)
 	)
-	(global_label "LED_STATUS"
-		(shape input)
-		(at 105.41 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "277c828c-5b32-44c7-8144-0747c6225fce")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.5832 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "TRIGGER_BTN"
 		(shape input)
 		(at 153.67 87.63 0)
@@ -1587,28 +1505,6 @@
 		(uuid "b6713863-61d0-4107-a41a-fcf4d25882b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 118.5551 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LED_WIFI"
-		(shape input)
-		(at 105.41 85.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ee6695d4-b2dd-4f85-aed4-d5cc8af003ec")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.5595 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1844,73 +1740,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 81.28 85.09 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c9786ef-c119-4695-a7fe-cef27102c23f")
-		(property "Reference" "#PWR024"
-			(at 74.93 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 77.47 85.0899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c847e0d5-17e8-4be7-a66e-b0d38ba305d5")
-		)
-		(instances
-			(project "medbox"
-				(path "/55415806-8c1c-48ca-92ef-7c441d9b7337/40eb1c91-145a-4a37-aaba-5a4b27f56dfc"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 191.77 92.71 90)
 		(unit 1)
@@ -2005,7 +1834,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "library:buzzer"
 			(at 219.71 97.155 90)
 			(effects
 				(font
@@ -2042,73 +1871,6 @@
 			(project "medbox"
 				(path "/55415806-8c1c-48ca-92ef-7c441d9b7337/40eb1c91-145a-4a37-aaba-5a4b27f56dfc"
 					(reference "BZ1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 82.55 96.52 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4a40faba-8c80-431a-a819-764d08919e30")
-		(property "Reference" "#PWR023"
-			(at 76.2 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 78.74 96.5199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c5f08f98-861f-4d28-bb2a-13514df264d1")
-		)
-		(instances
-			(project "medbox"
-				(path "/55415806-8c1c-48ca-92ef-7c441d9b7337/40eb1c91-145a-4a37-aaba-5a4b27f56dfc"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -2201,83 +1963,6 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 90.17 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d02b5fb-5874-4de5-91ab-3276ae625478")
-		(property "Reference" "D6"
-			(at 88.5825 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 88.5825 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
-			(at 90.17 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 90.17 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 90.17 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2213e36d-60e5-40a8-b811-ec53372ec181")
-		)
-		(pin "1"
-			(uuid "0e3ee1ad-4968-4180-94c4-edd07ad5017d")
-		)
-		(instances
-			(project "medbox"
-				(path "/55415806-8c1c-48ca-92ef-7c441d9b7337/40eb1c91-145a-4a37-aaba-5a4b27f56dfc"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
 		(at 90.17 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2354,83 +2039,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 88.9 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "789955d3-bafb-4a79-b749-721b1658d965")
-		(property "Reference" "D5"
-			(at 87.3125 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 87.3125 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
-			(at 88.9 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 88.9 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 88.9 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "df88768c-e276-4fd7-a6ed-3010ad6897ea")
-		)
-		(pin "1"
-			(uuid "e2f6948a-4582-4f1c-9305-edbd7562e33c")
-		)
-		(instances
-			(project "medbox"
-				(path "/55415806-8c1c-48ca-92ef-7c441d9b7337/40eb1c91-145a-4a37-aaba-5a4b27f56dfc"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 219.71 90.17 270)
 		(unit 1)
@@ -2492,142 +2100,6 @@
 			(project "medbox"
 				(path "/55415806-8c1c-48ca-92ef-7c441d9b7337/40eb1c91-145a-4a37-aaba-5a4b27f56dfc"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 99.06 96.52 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "92df1a4d-defa-4f34-8b77-b9cb94e2b79c")
-		(property "Reference" "R42"
-			(at 99.06 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R 500"
-			(at 99.06 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 99.06 98.298 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 99.06 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1df1c67d-d843-456f-84b5-0ed01f27d65d")
-		)
-		(pin "1"
-			(uuid "21652785-4dbb-429f-91f5-54715622ad4b")
-		)
-		(instances
-			(project "medbox"
-				(path "/55415806-8c1c-48ca-92ef-7c441d9b7337/40eb1c91-145a-4a37-aaba-5a4b27f56dfc"
-					(reference "R42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 99.06 85.09 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a16e8173-667e-46ff-9c9e-c4def004aa4b")
-		(property "Reference" "R41"
-			(at 99.06 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R 500"
-			(at 99.06 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 99.06 86.868 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 99.06 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "96d75f59-4591-44db-b44e-b1b384bd3165")
-		)
-		(pin "2"
-			(uuid "96d163ea-baa4-4b5e-980c-5f663b6ede9a")
-		)
-		(instances
-			(project "medbox"
-				(path "/55415806-8c1c-48ca-92ef-7c441d9b7337/40eb1c91-145a-4a37-aaba-5a4b27f56dfc"
-					(reference "R41")
 					(unit 1)
 				)
 			)

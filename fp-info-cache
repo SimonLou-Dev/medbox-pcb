@@ -1,4 +1,4 @@
-27429140023733846
+27430922948631487
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -108653,3 +108653,10 @@ MP1584EN
 0
 4
 4
+library
+buzzer
+
+
+0
+2
+2
